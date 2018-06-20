@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pipboy application</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">STAT</a>
+                </li>
+                <li class="navbar-item active">
+                    <a href="inv.html" class="nav-link">INV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="data.html" class="nav-link">DATA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="map.html" class="nav-link">MAP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="radio.html" class="nav-link">RADIO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a href="#status" class="nav-link" data-toggle="tab" role="tab">
+                            WEAPONS
+                        </a>
+        </li>
+        <li class="nav-item">
+            <a href="#special" class="nav-link" data-toggle="tab">
+                            AID
+                        </a>
+        </li>
+        <li class="nav-item">
+            <a href="#perks" class="nav-link" data-toggle="tab">
+                            ARMOR
+                        </a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane active full" id="status" role="tabpanel">
+            <ul class="item-list">
+                <li><a href="#" class="44_pistol">.44 Pistol</a></li>
+                <li><a href="#" class="10mm_pistol">10mm Pistol</a></li>
+                <li><a href="#" class="assault_rifle">Assault Rifle</a></li>
+            </ul>
+
+            <div class="item-stats">
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="damage pull-right">0</div>
+                            <div class="pull-left">Damage</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="ammo pull-right">0</div>
+                            <div class="pull-left">Ammo</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="fire_rate pull-right">0</div>
+                            <div class="pull-left">Fire Rate</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="range pull-right">0</div>
+                            <div class="pull-left">Range</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="accuracy pull-right">0</div>
+                            <div class="pull-left">Accuracy</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="weight pull-right">0</div>
+                            <div class="pull-left">Weight</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-highlight">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="value pull-right">0</div>
+                            <div class="pull-left">Value</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="special" role="tabpanel">
+            Aid
+        </div>
+        <div class="tab-pane" id="perks" role="tabpanel">
+            Armor
+        </div>
+    </div>
+
+
+
+
+    <navbar class="navbar-light pip-footer">
+        <div class="row">
+            <div class="col-3">
+                HP 90/90
+            </div>
+            <div class="col-6">
+                <span>LEVEL 1</span>
+                <div class="level-progress">
+                    <div class="level-progress-indicator"></div>
+                </div>
+            </div>
+            <div class="col-3">
+                AP 50/50
+            </div>
+        </div>
+    </navbar>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
