@@ -39,7 +39,6 @@ navbar::after {
     display: block;
     z-index: 5000;
     background: #14fe17;
-
     bottom: -8px;
 }
 
@@ -93,6 +92,10 @@ ul > li.navbar-item.active > a.nav-link {
     margin: auto;
 }
 
+ul.nav.nav-tabs {
+    margin-left: 160px;
+}
+
 .center-image {
     position: absolute;
 }
@@ -108,6 +111,15 @@ ul > li.navbar-item.active > a.nav-link {
     margin-right: 0;
 }
 
+.weapons {
+    margin-left: 550px;
+}
+
+.container {
+    display: none;
+    max-width: 500px;
+}
+
 .center-image p{
     margin: auto;
     display: block;
@@ -118,6 +130,7 @@ ul > li.navbar-item.active > a.nav-link {
     font-size: 30px;
 }
 
+
 .pip-footer {
     position: fixed;
     bottom: 0;
@@ -126,7 +139,7 @@ ul > li.navbar-item.active > a.nav-link {
 }
 
 .navbar.navbar-light .navbar-nav {
-    margin: 0px 200px;
+    margin-left: 50px;
 }
 
 .nav.nav-tabs {
@@ -311,8 +324,3 @@ ul > li.navbar-item.active > a.nav-link {
     background: rgba(16, 255, 0, 0.15);
     margin-bottom: 2px;
 }
-
-
-
-
-
