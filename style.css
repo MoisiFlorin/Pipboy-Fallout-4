@@ -96,6 +96,10 @@ ul.nav.nav-tabs {
     margin-left: 160px;
 }
 
+.nav-link:active{
+    color: rebeccapurple;
+}
+
 .center-image {
     position: absolute;
 }
